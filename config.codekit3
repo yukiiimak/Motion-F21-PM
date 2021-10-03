@@ -21,6 +21,45 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/Airplane.png" : {
+      "ft" : 32768,
+      "iS" : 3422,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Airplane.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/HotAirBalloons.jpg" : {
+      "ft" : 16384,
+      "iS" : 923891,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/HotAirBalloons.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/TravelStamps.png" : {
+      "ft" : 32768,
+      "iS" : 930093,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/TravelStamps.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -268,7 +307,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 654302875.45998001,
-    "displayValue" : "Motion-F21-PM",
+    "displayValue" : "Hero Page",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets_brown",
     "iconImageWasSetByUser" : 0
