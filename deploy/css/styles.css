@@ -2,6 +2,10 @@
     Mixins
 ============= */
 /* ---------------- Font Sizing ---------------- */
+html {
+  font-size: 100%;
+}
+
 /* ---------------- Media Queries ---------------- */
 /* =============
     Variables
@@ -413,7 +417,7 @@ nav ul li {
 nav ul li a {
   color: white;
   font-family: "Montserrat", sans-serif;
-  font-size: 35;
+  font-size: 1.25rem;
   font-weight: 300;
 }
 
@@ -489,9 +493,10 @@ header div aside a {
 }
 #hero > div .front #hero-content img {
   position: absolute;
-  right: 0vw;
+  right: 2vw;
   bottom: 0vh;
   width: 100px;
+  size: 20;
 }
 
 #blurb {
