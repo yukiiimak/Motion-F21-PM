@@ -462,3 +462,7 @@ header div aside a {
     grid-area: hero;
   }
 }
+#hero > div #hero-content {
+  color: white;
+  text-align: center;
+}

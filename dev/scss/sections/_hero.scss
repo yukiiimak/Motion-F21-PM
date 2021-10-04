@@ -21,5 +21,10 @@
         @include xl{
             grid-area: hero;
         }
+
+        #hero-content {
+            color: white;
+            text-align: center;
+        }
     }
 }
