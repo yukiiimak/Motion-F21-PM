@@ -1,0 +1,37 @@
+#blurb {
+    display: grid;
+    // grid-template-columns: auto 90% auto;
+    grid-template-areas: ". blurb .";
+    // padding: 64px 0;
+    background-color: $skyblue;
+
+    // @include md {
+    //     padding: 100px 0;
+    //     grid-template-columns: auto 80% auto;
+    // }
+
+    // @include lg {
+    //     padding: 128px 0;
+    // }
+
+    // @include xl {
+    //     grid-template-areas: auto 1440px auto;
+    // }
+
+    >div {
+        grid-area: blurb;
+
+        // @include lg {
+        //     padding: 0 30%;
+        // }
+
+        p{
+            font-family: 'Raleway', sans-serif;
+            font-size: 25;
+            text-align: justify;
+            padding: 0 23%;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+    }
+}

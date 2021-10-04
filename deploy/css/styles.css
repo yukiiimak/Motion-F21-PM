@@ -479,3 +479,20 @@ header div aside a {
   line-height: 47px;
   margin-top: -65px;
 }
+
+#blurb {
+  display: grid;
+  grid-template-areas: ". blurb .";
+  background-color: #F5FFFF;
+}
+#blurb > div {
+  grid-area: blurb;
+}
+#blurb > div p {
+  font-family: "Raleway", sans-serif;
+  font-size: 25;
+  text-align: justify;
+  padding: 0 23%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
