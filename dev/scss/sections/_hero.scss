@@ -17,8 +17,9 @@
             grid-area: hero;
         }
 
-        article {
-            background-image: url('../img/modified/HotAirBalloons.jpg');
+        .front {
+            background-image: url('../img/modified/HotAirBalloons.jpg'),
+                url('../img/original/TravelStamps.png');
             background-position: center;
             background-size: cover;
             align-items: center;

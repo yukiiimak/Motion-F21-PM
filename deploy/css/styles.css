@@ -450,7 +450,16 @@ header div aside a {
   }
 }
 #hero > div {
-  background-image: url("../img/modified/HotAirBalloons.jpg");
+  height: 100%;
+  overflow: hidden;
+}
+@media (min-width: 1440px) {
+  #hero > div {
+    grid-area: hero;
+  }
+}
+#hero > div .front {
+  background-image: url("../img/modified/HotAirBalloons.jpg"), url("../img/original/TravelStamps.png");
   background-position: center;
   background-size: cover;
   align-items: center;
@@ -458,22 +467,17 @@ header div aside a {
   height: 100%;
   justify-content: center;
 }
-@media (min-width: 1440px) {
-  #hero > div {
-    grid-area: hero;
-  }
-}
-#hero > div #hero-content {
+#hero > div .front #hero-content {
   color: white;
   text-align: center;
 }
-#hero > div #hero-content h1 {
+#hero > div .front #hero-content h1 {
   font-family: "Nunito Sans", sans-serif;
   font-size: 50;
   font-weight: 700;
   line-height: 117px;
 }
-#hero > div #hero-content h2 {
+#hero > div .front #hero-content h2 {
   font-family: "Nunito Sans", sans-serif;
   font-size: 45;
   font-weight: 400;
