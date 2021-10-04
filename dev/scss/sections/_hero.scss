@@ -18,16 +18,15 @@
         }
 
         .front {
-            background-image: url('../img/modified/HotAirBalloons.jpg'),
-                url('../img/original/TravelStamps.png');
+            background-image: url('../img/modified/HotAirBalloons.jpg');
             background-position: center;
             background-size: cover;
             align-items: center;
             display: flex;
             height: 100%;
             justify-content: center;
+            
             #hero-content {
-
                 color: white;
                 text-align: center;
     
