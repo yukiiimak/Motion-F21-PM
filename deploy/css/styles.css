@@ -361,6 +361,10 @@ ul li {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* =============
     Typography
 ============= */
@@ -394,12 +398,29 @@ textarea {
 /* =============
     Navigation
 ============= */
+nav {
+  height: 100%;
+}
+nav ul {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+nav ul li {
+  margin-left: 4vw;
+}
+nav ul li a {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 35;
+  font-weight: 300;
+}
+
 /* =============
     Header
 ============= */
 header {
   position: fixed;
-  border: 1px solid red;
   background-color: white;
   width: 100%;
   z-index: 100;

@@ -1,3 +1,21 @@
 /* =============
     Navigation
 ============= */
+
+nav {
+    height: 100%;
+    ul {
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        li {
+            margin-left: 4vw;
+            a {
+                color: black;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 35;
+                font-weight: 300;
+            }
+        }
+    }
+}
