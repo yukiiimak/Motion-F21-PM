@@ -25,6 +25,21 @@
         #hero-content {
             color: white;
             text-align: center;
+
+            h1{
+                font-family: 'Nunito Sans', sans-serif;
+                font-size: 50;
+                font-weight: 700;
+                line-height: 117px;
+            }
+
+            h2{
+                font-family: 'Nunito Sans', sans-serif;
+                font-size: 45;
+                font-weight: 400;
+                line-height: 47px;
+                margin-top: -65px;
+            }
         }
     }
 }
