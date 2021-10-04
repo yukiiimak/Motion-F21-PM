@@ -21,11 +21,24 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/Airplane.png" : {
+    "\/deploy\/img\/modified\/HotAirBalloons.jpg" : {
+      "ft" : 16384,
+      "iS" : 140649,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/modified\/HotAirBalloons.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/original\/Airplane.png" : {
       "ft" : 32768,
       "iS" : 3422,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/Airplane.png",
+      "oAP" : "\/deploy\/img\/original\/Airplane.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -34,12 +47,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/HotAirBalloons.jpg" : {
+    "\/deploy\/img\/original\/HotAirBalloons.jpg" : {
       "ft" : 16384,
       "iS" : 923891,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/HotAirBalloons.jpg",
+      "oAP" : "\/deploy\/img\/original\/HotAirBalloons.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -47,11 +60,21 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/TravelStamps.png" : {
+    "\/deploy\/img\/original\/Logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/original\/Logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/original\/TravelStamps.png" : {
       "ft" : 32768,
       "iS" : 930093,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/TravelStamps.png",
+      "oAP" : "\/deploy\/img\/original\/TravelStamps.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -78,14 +101,6 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
-    },
-    "\/dev\/content\/nav.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/nav.html",
-      "oF" : 0
     },
     "\/dev\/global\/head.kit" : {
       "cB" : 0,
