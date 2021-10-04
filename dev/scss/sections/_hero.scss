@@ -1,0 +1,25 @@
+#hero {
+    height: 90vh;
+    width: 100%;
+    overflow: hidden;
+
+    @include xl{
+        display: grid;
+        grid-template-areas: ". hero .";
+        grid-template-columns: auto 1440px auto;
+    }
+
+    >div {
+        background-image: url('../img/modified/HotAirBalloons.jpg');
+        background-position: center;
+        background-size: cover;
+        align-items: center;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+
+        @include xl{
+            grid-area: hero;
+        }
+    }
+}
