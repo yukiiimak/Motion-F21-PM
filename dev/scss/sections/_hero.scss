@@ -3,6 +3,7 @@
     width: 100%;
     overflow: hidden;
 
+
     @include xl{
         display: grid;
         grid-template-areas: ". hero .";
@@ -29,6 +30,8 @@
             #hero-content {
                 color: white;
                 text-align: center;
+                position: relative;
+                border: 1px solid red;
     
                 h1{
                     font-family: 'Nunito Sans', sans-serif;
@@ -44,7 +47,16 @@
                     line-height: 47px;
                     margin-top: -65px;
                 }
+
+                img{
+                    position: absolute;
+                    right: 0vw;
+                    bottom: 0vh;
+                    width: 100px;
+                }
         }
         }
     }
+
+
 }
