@@ -476,13 +476,12 @@ header div aside a {
   color: white;
   text-align: center;
   position: relative;
-  border: 1px solid red;
 }
 #hero > div .front #hero-content h1 {
   font-family: "Nunito Sans", sans-serif;
   font-size: 50;
   font-weight: 700;
-  line-height: 117px;
+  line-height: 110px;
 }
 #hero > div .front #hero-content h2 {
   font-family: "Nunito Sans", sans-serif;
@@ -493,10 +492,9 @@ header div aside a {
 }
 #hero > div .front #hero-content img {
   position: absolute;
-  right: 2vw;
-  bottom: 0vh;
-  width: 100px;
-  size: 20;
+  right: -1vw;
+  bottom: -5vh;
+  width: 165px;
 }
 
 #blurb {
