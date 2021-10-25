@@ -2,8 +2,13 @@ import { gsap } from "gsap";
 
 const mainTL = gsap.timeline();
 
-mainTL.to("Cloud 1", {duration: 1, scale:3, y:"-=600"}); 
+function airplanemove(){
+    const tl =gsap.timeline(); 
+    tl.to("#Airplane", {duration:1, scale:3, x:"-=600"}); 
+    return tl; 
+}   
 
+mainTL.add(airplanemove()); 
 
 
 
