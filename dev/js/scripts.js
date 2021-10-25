@@ -1,14 +1,24 @@
 import { gsap } from "gsap";
+import { GSDevTools } from "gsap/GSDevTools";
+
+gsap.registerPlugin(GSDevTools);
 
 const mainTL = gsap.timeline();
 
 function airplanemove(){
     const tl =gsap.timeline(); 
-    tl.to("#Airplane", {duration:1, scale:3, x:"-=600"}); 
+    tl.to("#Airplane", {duration:1, x:"+=50", y:"-=10"}); 
+    tl.to("#Airplane", {duration:1, x:"+=50", y:"+=30"});
+    tl.to("#Airplane", {duration:1, x:"+=50", y:"-=20"});
+    tl.to("#Airplane", {duration:1, x:"+=50", y:"+=20"});
+    tl.to("#Airplane", {duration:1, x:"+=50"});
+    tl.to("#Airplane", {duration:1, x:"+=50", y:"-=10"});
     return tl; 
 }   
 
 mainTL.add(airplanemove()); 
+
+GSDevTools.create();
 
 
 
