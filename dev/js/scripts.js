@@ -7,16 +7,23 @@ const mainTL = gsap.timeline();
 
 function airplanemove(){
     const tl =gsap.timeline(); 
-    tl.to("#Airplane", {duration:1, x:"+=50", y:"-=10"}); 
-    tl.to("#Airplane", {duration:1, x:"+=50", y:"+=30"});
-    tl.to("#Airplane", {duration:1, x:"+=50", y:"-=20"});
-    tl.to("#Airplane", {duration:1, x:"+=50", y:"+=20"});
-    tl.to("#Airplane", {duration:1, x:"+=50"});
-    tl.to("#Airplane", {duration:1, x:"+=50", y:"-=10"});
+    tl.to("#Airplane", {duration:2, x:"+=50", y:"-=10"}); 
+    tl.to("#Airplane", {duration:2, x:"+=50", y:"+=30"});
+    tl.to("#Airplane", {duration:2, x:"+=50", y:"-=20"});
+    tl.to("#Airplane", {duration:2, x:"+=50", y:"+=20"});
+    tl.to("#Airplane", {duration:2, x:"+=50"});
+    tl.to("#Airplane", {duration:2, x:"+=50", y:"-=10"});
     return tl; 
 }   
 
+function cloudsmove(){
+    const tl =gsap.timeline (); 
+    tl.to("Cloud-1", {duration:1, y:"-=100"});
+    return tl; 
+}
+
 mainTL.add(airplanemove()); 
+mainTL.add(cloudsmove());
 
 GSDevTools.create();
 
