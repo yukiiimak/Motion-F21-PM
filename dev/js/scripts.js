@@ -8,12 +8,12 @@ const mainTL = gsap.timeline();
 
 function TL(){
     const tl =gsap.timeline(); 
-    tl.to("#Airplane", {duration:1.5, x:"+=50", y:"-=10"}, "same"); 
-    tl.to("#Airplane", {duration:1.5, x:"+=50", y:"+=30"});
-    tl.to("#Airplane", {duration:1.5, x:"+=50", y:"-=20"});
-    tl.to("#Airplane", {duration:1.5, x:"+=50", y:"+=20"});
-    tl.to("#Airplane", {duration:1.5, x:"+=50"});
-    tl.to("#Airplane", {duration:1.5, x:"+=83", y:"-=35"});
+    tl.to("#Airplane", {duration:1.5, x:"+=50", y:"-=10", ease:"none"}, "same"); 
+    tl.to("#Airplane", {duration:1.5, x:"+=50", y:"+=30", ease:"none"});
+    tl.to("#Airplane", {duration:1.5, x:"+=50", y:"-=20", ease:"none"});
+    tl.to("#Airplane", {duration:1.5, x:"+=50", y:"+=20", ease:"none"});
+    tl.to("#Airplane", {duration:1.5, x:"+=50", ease:"none"});
+    tl.to("#Airplane", {duration:1.5, x:"+=83", y:"-=35", ease:"none"});
 
     tl.to("#Cloud-1", {duration:5, x:"-=80"}, "same");
     tl.to("#Cloud-2", {duration:7, x:"-=145"}, "same");
