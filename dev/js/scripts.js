@@ -15,12 +15,14 @@ function TL(){
     tl.to("#Airplane", {duration:1.5, x:"+=50", ease:"none"});
     tl.to("#Airplane", {duration:1.5, x:"+=83", y:"-=35", ease:"none"});
 
-    tl.to("#Cloud-1", {duration:5, x:"-=80"}, "same");
+    tl.to("#Cloud-1", {duration:5, x:"-=90"}, "same");
     tl.to("#Cloud-2", {duration:7, x:"-=145"}, "same");
-    tl.to("#Cloud-3", {duration:9, x:"-=155"}, "same");
-    tl.to("#Cloud-4", {duration:11, x:"-=210"}, "same");
+    tl.to("#Cloud-3", {duration:9, x:"-=160"}, "same");
+    tl.to("#Cloud-4", {duration:11, x:"-=220"}, "same");
     tl.to("#Cloud-5", {duration:13, x:"-=280"}, "same");
     tl.to("#Cloud-6", {duration:15, x:"-=300"}, "same");
+
+    tl.from("Cloud-1-2", {duration:2, x:"-100"})
     return tl; 
 }   
 
