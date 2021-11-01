@@ -12,7 +12,7 @@ function TL(){
     tl.to("#Airplane", {duration:1.5, x:"+=50", y:"-=20"});
     tl.to("#Airplane", {duration:1.5, x:"+=50", y:"+=20"});
     tl.to("#Airplane", {duration:1.5, x:"+=50"});
-    tl.to("#Airplane", {duration:1.5, x:"+=83", y:"-=10"});
+    tl.to("#Airplane", {duration:1.5, x:"+=83", y:"-=35"});
 
     tl.to("#Cloud-1", {duration:5, x:"-=80"}, "same");
     tl.to("#Cloud-2", {duration:7, x:"-=145"}, "same");
