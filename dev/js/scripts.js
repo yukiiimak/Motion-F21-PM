@@ -17,9 +17,9 @@ function TL(){
     tl.to("#Cloud-1", {duration:5, x:"-=80"}, "same");
     tl.to("#Cloud-2", {duration:7, x:"-=145"}, "same");
     tl.to("#Cloud-3", {duration:9, x:"-=155"}, "same");
-    tl.to("#Cloud-4", {duration:11, x:"-=200"}, "same");
-    tl.to("#Cloud-5", {duration:13, x:"-=270"}, "same");
-    tl.to("#Cloud-6", {duration:15, x:"-=290"}, "same");
+    tl.to("#Cloud-4", {duration:11, x:"-=210"}, "same");
+    tl.to("#Cloud-5", {duration:13, x:"-=280"}, "same");
+    tl.to("#Cloud-6", {duration:15, x:"-=300"}, "same");
     return tl; 
 }   
 
