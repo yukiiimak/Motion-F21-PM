@@ -8,25 +8,29 @@ const mainTL = gsap.timeline();
 
 function TL(){
     const tl =gsap.timeline(); 
-    tl.to("#Airplane", {duration:1.5, x:"+=50", y:"-=10", ease:"none"}, "same"); 
-    tl.to("#Airplane", {duration:1.5, x:"+=50", y:"+=30", ease:"none"});
-    tl.to("#Airplane", {duration:1.5, x:"+=50", y:"-=20", ease:"none"});
-    tl.to("#Airplane", {duration:1.5, x:"+=50", y:"+=20", ease:"none"});
-    tl.to("#Airplane", {duration:1.5, x:"+=50", ease:"none"});
-    tl.to("#Airplane", {duration:1.5, x:"+=83", y:"-=35", ease:"none"});
-
-    // tl.to("#Cloud-2", {duration:7, x:"-=145"}, "same");
-    // tl.to("#Cloud-3", {duration:9, x:"-=160"}, "same");
-    // tl.to("#Cloud-4", {duration:11, x:"-=220"}, "same");
-    // tl.to("#Cloud-5", {duration:13, x:"-=280"}, "same");
-    // tl.to("#Cloud-6", {duration:15, x:"-=300"}, "same");
+    tl.to("#Airplane", {duration:2.5, x:"+=50", y:"-=10", ease:"none"}, "same"); 
+    tl.to("#Airplane", {duration:2.5, x:"+=50", y:"+=30", ease:"none"});
+    tl.to("#Airplane", {duration:2.5, x:"+=50", y:"-=20", ease:"none"});
+    tl.to("#Airplane", {duration:2.5, x:"+=50", y:"+=20", ease:"none"});
+    tl.to("#Airplane", {duration:2.5, x:"+=50", ease:"none"});
+    tl.to("#Airplane", {duration:2.5, x:"+=83", y:"-=35", ease:"none"});
     return tl; 
 }   
 
 function clouds(){
     const tl =gsap.timeline({repeat:-1}); 
-    tl.to("#Cloud-1", {duration:5, x:"-=1000", ease:"none"}, "same")
-    .from("#Cloud-1-2", {duration:5, x:"+=1000", ease:"none"}, "same");
+    tl.to("#Cloud-1", {duration:10, x:"-=585", ease:"none"}, "same")
+    .from("#Cloud-1-2", {duration:10, x:"+=585", ease:"none"}, "same");
+    tl.to("#Cloud-2", {duration:10, x:"-=585", ease:"none"}, "same")
+    .from("#Cloud-2-2", {duration:10, x:"+=585", ease:"none"}, "same");
+    tl.to("#Cloud-3", {duration:10, x:"-=585", ease:"none"}, "same")
+    .from("#Cloud-3-2", {duration:10, x:"+=585", ease:"none"}, "same");
+    tl.to("#Cloud-4", {duration:10, x:"-=585", ease:"none"}, "same")
+    .from("#Cloud-4-2", {duration:10, x:"+=585", ease:"none"}, "same");
+    tl.to("#Cloud-5", {duration:10, x:"-=585", ease:"none"}, "same")
+    .from("#Cloud-5-2", {duration:10, x:"+=585", ease:"none"}, "same");
+    tl.to("#Cloud-6", {duration:10, x:"-=585", ease:"none"}, "same")
+    .from("#Cloud-6-2", {duration:10, x:"+=585", ease:"none"}, "same");
 }
 
 clouds();
