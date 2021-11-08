@@ -3,10 +3,27 @@
     height: 100vh;
     width: 100vw;
     z-index: 1000;
+    background-color: #000;
+    border: 1px solid red;
+    display: flex;
+    align-items: flex-end;
 
-    g{
+    >div{
+        // height: 100%;
+        width: 100%;
+        border: 1px solid yellow;
+
+    }
+
+    svg{
+        // width: 100%;
+        overflow: hidden;
+    }
+
+    // g{
         #Louvre {
-            height: 100vh;
+            // position: relative;
+            // bottom: 500px;
         }
 
         #Sydney-Opera-House {
@@ -16,5 +33,12 @@
         #Great-Wall {
             display: none;
         }
-    }
+
+        // #Circle {
+        //     position: relative;
+        //     top: 200px;
+        // }
+    // }
+
+
 }

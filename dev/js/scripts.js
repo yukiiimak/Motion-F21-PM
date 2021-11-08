@@ -3,6 +3,9 @@ import { GSDevTools } from "gsap/GSDevTools";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 
 gsap.registerPlugin(GSDevTools, MotionPathPlugin);
+// gsap.set("#Circle",{y:"+=100", transformOrigin:"center"});
+
+gsap.set("#preloader",{transformOrigin:"center bottom"});
 
 const mainTL = gsap.timeline();
 
@@ -33,9 +36,15 @@ function clouds(){
     .from("#Cloud-6-2", {duration:8, x:"+=585", ease:"none"}, "same");
 }
 
+function landmarks (){ 
+    const tl =gsap.timeline();
+    
+}
+
 
 
 clouds();
+landmarks();
 mainTL.add(TL()); 
 
 GSDevTools.create();
