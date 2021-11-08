@@ -3,4 +3,18 @@
     height: 100vh;
     width: 100vw;
     z-index: 1000;
+
+    g{
+        #Louvre {
+            height: 100vh;
+        }
+
+        #Sydney-Opera-House {
+            display: none;
+        }
+
+        #Great-Wall {
+            display: none;
+        }
+    }
 }

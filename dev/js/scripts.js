@@ -33,9 +33,9 @@ function clouds(){
     .from("#Cloud-6-2", {duration:8, x:"+=585", ease:"none"}, "same");
 }
 
+
+
 clouds();
-
-
 mainTL.add(TL()); 
 
 GSDevTools.create();

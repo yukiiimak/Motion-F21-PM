@@ -452,6 +452,15 @@ header div aside a {
   width: 100vw;
   z-index: 1000;
 }
+#preloader g #Louvre {
+  height: 100vh;
+}
+#preloader g #Sydney-Opera-House {
+  display: none;
+}
+#preloader g #Great-Wall {
+  display: none;
+}
 
 #hero {
   height: 90vh;
