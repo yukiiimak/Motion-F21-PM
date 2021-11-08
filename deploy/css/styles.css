@@ -451,22 +451,19 @@ header div aside a {
   height: 100vh;
   width: 100vw;
   z-index: 1000;
-  background-color: #000;
-  border: 1px solid red;
   display: flex;
   align-items: flex-end;
 }
 #preloader > div {
   width: 100%;
-  border: 1px solid yellow;
 }
 #preloader svg {
   overflow: hidden;
 }
-#preloader #Sydney-Opera-House {
+#preloader g #Louvre {
   display: none;
 }
-#preloader #Great-Wall {
+#preloader g #Sydney-Opera-House {
   display: none;
 }
 
