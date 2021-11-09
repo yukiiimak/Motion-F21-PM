@@ -41,7 +41,7 @@ function clouds(){
 
 function landmarks(){
     const tl =gsap.timeline(); 
-    tl.to ("#Louvre", {duration:10, motionPath:{path:"Circle"}, rotation:360, ease:"none"}, "same"); 
+    tl.to ("#Louvre", {duration:10, motionPath:{path:"#Circle"}, rotation:360, ease:"none"}, "same"); 
     return tl; 
 }
 
@@ -51,7 +51,7 @@ clouds();
 mainTL.add(TL()); 
 
 GSDevTools.create();
-
+MotionPathPlugin.create();
 
 
 // mainTL.from("#hero article", {duration:2, alpha:0, scale:2})
