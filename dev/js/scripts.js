@@ -41,14 +41,21 @@ function clouds(){
 
 function landmarks(){
     const tl =gsap.timeline(); 
-    tl.to ("#Louvre", {autoAlpha:1, duration:4, motionPath:{path:"#Circle", align:"#Circle", alignOrigin:[0.3,0.3]}}, "same")
-    tl.to ("#Great-Wall", {autoAlpha:1, duration:4, motionPath:{path:"#Circle", align:"#Circle", alignOrigin:[0.4,0.4]}})
-    tl.to ("#Sydney-Opera-House", {autoAlpha:1, duration:4, motionPath:{path:"#Circle", align:"#Circle", alignOrigin:[0.3,0.3]}}); 
+    tl.to ("#Louvre", {duration:4, motionPath:{path:"#Circle", align:"#Circle", alignOrigin:[0.3,0.8]}}, "same")
+    tl.to ("#Great-Wall", {autoAlpha:1, duration:4, motionPath:{path:"#Circle", align:"#Circle", alignOrigin:[0.4,0.7]}})
+    tl.to ("#Sydney-Opera-House", {autoAlpha:1, duration:4, motionPath:{path:"#Circle", align:"#Circle", alignOrigin:[0.3,0.7]}}); 
+}
+
+function heroAnimation(){
+    const tl =gsap.timeline();
+    const heroHeight = document.querySelector("#hero"); 
+    tl.to ("#hero", {duration:5, alpha:0, y:heroHeight.clientHeight}); 
 }
 
 
 landmarks();
 clouds();
+heroAnimation();
 mainTL.add(TL()); 
 
 GSDevTools.create();
