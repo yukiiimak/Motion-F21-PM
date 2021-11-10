@@ -41,9 +41,9 @@ function clouds(){
 
 function landmarks(){
     const tl =gsap.timeline(); 
-    tl.to ("#Louvre", {duration:4, motionPath:{path:"#Circle", align:"#Circle", alignOrigin:[0.3,0.3], autoRotate:true}}, "same"); 
-    tl.to ("#Great-Wall", {duration:4, motionPath:{path:"#Circle", align:"#Circle", alignOrigin:[0.4,0.4], autoRotate:true}});
-    tl.to ("#Sydney-Opera-House", {duration:4, motionPath:{path:"#Circle", align:"#Circle", alignOrigin:[0.3,0.3], autoRotate:true}});
+    tl.to ("#Louvre", {autoAlpha:1, duration:4, motionPath:{path:"#Circle", align:"#Circle", alignOrigin:[0.3,0.3]}}, "same"); 
+    tl.to ("#Great-Wall", {autoAlpha:1, duration:4, motionPath:{path:"#Circle", align:"#Circle", alignOrigin:[0.4,0.4]}});
+    tl.to ("#Sydney-Opera-House", {autoAlpha:1, duration:4, motionPath:{path:"#Circle", align:"#Circle", alignOrigin:[0.3,0.3]}});
     return tl; 
 }
 
