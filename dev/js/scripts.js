@@ -4,7 +4,7 @@ import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 
 gsap.registerPlugin(GSDevTools, MotionPathPlugin);
 gsap.set("#Circle",{y:"+=15", transformOrigin:"center"});
-gsap.set("#Louvre", {y:"-25", transformOrigin:"bottom"});
+gsap.set("#Louvre", {y:"-30", transformOrigin:"bottom"}); 
 gsap.set("#Sydney-Opera-House", {y:"-16", transformOrigin:"bottom"}); 
 gsap.set("#Great-Wall", {y:"-=20", x:"-=3", transformOrigin:"bottom"}); 
 
@@ -41,7 +41,7 @@ function clouds(){
 
 function landmarks(){
     const tl =gsap.timeline(); 
-    tl.to ("#Louvre", {duration:10, motionPath:{path:"#Circle", align:"#Circle", alignOrigin:[0.3,0.3], autoRotate:true}}, "same"); 
+    tl.to ("#Louvre", {duration:5, motionPath:{path:"#Circle", align:"#Circle", alignOrigin:[0.3,0.3]}}, "same"); 
     return tl; 
 }
 
