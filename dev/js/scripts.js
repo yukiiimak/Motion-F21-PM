@@ -3,7 +3,7 @@ import { GSDevTools } from "gsap/GSDevTools";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 
 gsap.registerPlugin(GSDevTools, MotionPathPlugin);
-gsap.set("#Circle",{y:"+=134", transformOrigin:"center"});
+gsap.set("#Circle",{y:"+=10", transformOrigin:"center"});
 gsap.set("#Louvre", {y:"-=25", transformOrigin:"bottom"});
 gsap.set("#Sydney-Opera-House", {y:"-16", transformOrigin:"bottom"}); 
 gsap.set("#Great-Wall", {y:"-=20", x:"-=3", transformOrigin:"bottom"}); 
