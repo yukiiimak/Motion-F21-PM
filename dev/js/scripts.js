@@ -3,8 +3,8 @@ import { GSDevTools } from "gsap/GSDevTools";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 
 gsap.registerPlugin(GSDevTools, MotionPathPlugin);
-gsap.set("#Circle",{y:"+=10", transformOrigin:"center"});
-gsap.set("#Louvre", {y:"-=25", transformOrigin:"bottom"});
+gsap.set("#Circle",{y:"+=15", transformOrigin:"center"});
+gsap.set("#Louvre", {y:"-25", transformOrigin:"bottom"});
 gsap.set("#Sydney-Opera-House", {y:"-16", transformOrigin:"bottom"}); 
 gsap.set("#Great-Wall", {y:"-=20", x:"-=3", transformOrigin:"bottom"}); 
 
@@ -39,14 +39,14 @@ function clouds(){
     .from("#Cloud-6-2", {duration:8, x:"+=585", ease:"none"}, "same");
 }
 
-// function landmarks(){
-//     const tl =gsap.timeline(); 
-//     tl.to ("#Louvre", {duration:10, motionPath:{path:"#Circle"}, rotation:360, ease:"none"}, "same"); 
-//     return tl; 
-// }
+function landmarks(){
+    const tl =gsap.timeline(); 
+    tl.to ("#Louvre", {duration:10, motionPath:{path:"#Circle", align:"#Circle", alignOrigin:[0.3,0.3], autoRotate:true}}, "same"); 
+    return tl; 
+}
 
 
-// landmarks();
+landmarks();
 clouds();
 mainTL.add(TL()); 
 
