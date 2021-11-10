@@ -53,10 +53,10 @@ function landmarks(){
 // }
 
 
-landmarks();
-clouds();
-// heroAnimation();
 mainTL.add(TL()); 
+clouds();
+landmarks();
+// heroAnimation();
 
 GSDevTools.create();
 MotionPathPlugin.create();
