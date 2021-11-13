@@ -460,6 +460,12 @@ header div aside a {
 #preloader svg {
   overflow: hidden;
 }
+#preloader g #Sydney-Opera-House {
+  display: none;
+}
+#preloader g #Great-Wall {
+  display: none;
+}
 #preloader g #Circle {
   visibility: hidden;
 }
