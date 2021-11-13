@@ -4,9 +4,9 @@ import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 
 gsap.registerPlugin(GSDevTools, MotionPathPlugin);
 gsap.set("#Circle",{y:"+=15", transformOrigin:"center"});
-gsap.set("#Louvre", {y:"-=30", transformOrigin:"center bottom", rotate:80}); 
-gsap.set("#Sydney-Opera-House", {y:"-=16", transformOrigin:"center bottom"}); 
-gsap.set("#Great-Wall", {y:"-=20", x:"-=3", transformOrigin:"center bottom"}); 
+gsap.set("#Louvre", {y:"-=30", transformOrigin:"center bottom", rotate:80});
+gsap.set("#Great-Wall", {y:"-=20", x:"-=3", transformOrigin:"center bottom", rotate:80});  
+gsap.set("#Sydney-Opera-House", {y:"-=16", transformOrigin:"center bottom", rotate:80}); 
 
 gsap.set("#preloader",{transformOrigin:"center bottom"});
 
@@ -41,10 +41,25 @@ function clouds(){
 
 function landmarks(){
     const tl =gsap.timeline(); 
-    tl.to ("#Louvre", {duration:6, motionPath:{path:"#Circle", align:"#Circle", alignOrigin:[0.6,0.7]}, rotate:-80}, "turn")
-    tl.from ("#Left-Lines", {duration:2, autoAlpha:0}, "turn"); 
-    tl.from ("#Right-Lines", {duration:1, autoAlpha:0, delay:1}, "turn");
-    // tl.from ("#Great-Wall", {autoAlpha:0, duration:5, motionPath:{path:"#Circle", align:"#Circle", alignOrigin:[0.4,0.7]}})
+    tl.to ("#Louvre", {duration:7, motionPath:{path:"#Circle", align:"#Circle", alignOrigin:[0.6,0.7]}, rotate:-80}, "turn")
+    tl.from ("#Left-Lines", {duration:2, autoAlpha:0}, "turn")
+    tl.from ("#Right-Lines", {duration:2, autoAlpha:0, delay:1}, "turn");
+    tl.to ("#Great-Wall", {duration:7, motionPath:{path:"#Circle", align:"#Circle", alignOrigin:[0.6,0.7]}, rotate:-80}, "turn-2")
+    tl.from ("#Left-Base", {duration:0.1, autoAlpha:0}, "turn-2")
+    tl.from ("#Left-Middle-Bottom", {duration:0.1, autoAlpha:0, delay:1}, "turn-2")
+    tl.from ("#Left-Middle-Top", {duration:0.1, autoAlpha:0, delay:1.2}, "turn-2")
+    tl.from ("#Left-Top", {duration:0.1, autoAlpha:0, delay:1.4}, "turn-2")
+    tl.from ("#Right-Base", {duration:0.1, autoAlpha:0, delay:2.2}, "turn-2")
+    tl.from ("#Right-Middle", {duration:0.1, autoAlpha:0, delay:2.4}, "turn-2")
+    tl.from ("#Right-Top", {duration:0.1, autoAlpha:0, delay:2.6}, "turn-2");
+    tl.to ("#Sydney-Opera-House", {duration:7, motionPath:{path:"#Circle", align:"#Circle", alignOrigin:[0.6,0.7]}, rotate:-80}, "turn-3")
+    tl.from ("#Shell-1", {duration:0.3, autoAlpha:0}, "turn-3")
+    tl.from ("#Shell-2", {duration:0.1, autoAlpha:0, delay:1}, "turn-3")
+    tl.from ("#Shell-3", {duration:0.1, autoAlpha:0, delay:1.2}, "turn-3")
+    tl.from ("#Shell-4", {duration:0.1, autoAlpha:0, delay:1.4}, "turn-3")
+    tl.from ("#Shell-5", {duration:0.1, autoAlpha:0, delay:1.6}, "turn-3")
+    tl.from ("#Shell-6", {duration:0.1, autoAlpha:0, delay:1.8}, "turn-3");
+    
     // tl.from ("#Sydney-Opera-House", {autoAlpha:0, duration:5, motionPath:{path:"#Circle", align:"#Circle", alignOrigin:[0.3,0.7]}}); 
 }
 
