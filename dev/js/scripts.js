@@ -54,11 +54,11 @@ function landmarks(){
     tl.from ("#Right-Top", {duration:0.1, autoAlpha:0, delay:2.6}, "turn-2");
     tl.to ("#Sydney-Opera-House", {duration:7, motionPath:{path:"#Circle", align:"#Circle", alignOrigin:[0.6,0.7]}, rotate:-152}, "turn-3")
     tl.from ("#Shell-1", {duration:2, autoAlpha:0}, "turn-3")
-    tl.from ("#Shell-2", {duration:0.1, autoAlpha:0, delay:1}, "turn-3")
-    tl.from ("#Shell-3", {duration:0.1, autoAlpha:0, delay:1.2}, "turn-3")
-    tl.from ("#Shell-4", {duration:0.1, autoAlpha:0, delay:1.4}, "turn-3")
-    tl.from ("#Shell-5", {duration:0.1, autoAlpha:0, delay:1.6}, "turn-3")
-    tl.from ("#Shell-6", {duration:0.1, autoAlpha:0, delay:1.8}, "turn-3");
+    tl.from ("#Shell-2", {duration:0.2, autoAlpha:0, delay:1}, "turn-3")
+    tl.from ("#Shell-3", {duration:0.2, autoAlpha:0, delay:1.2}, "turn-3")
+    tl.from ("#Shell-4", {duration:0.2, autoAlpha:0, delay:1.4}, "turn-3")
+    tl.from ("#Shell-5", {duration:0.2, autoAlpha:0, delay:1.6}, "turn-3")
+    tl.from ("#Shell-6", {duration:0.2, autoAlpha:0, delay:1.8}, "turn-3");
     tl.to ("#preloader", {duration:2, alpha:0, onComplete:backToTop}); 
 }
 
