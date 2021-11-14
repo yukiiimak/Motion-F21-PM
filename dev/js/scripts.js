@@ -1,8 +1,8 @@
 import { gsap } from "gsap";
-import { GSDevTools } from "gsap/GSDevTools";
+// import { GSDevTools } from "gsap/GSDevTools";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 
-gsap.registerPlugin(GSDevTools, MotionPathPlugin);
+gsap.registerPlugin(MotionPathPlugin);
 gsap.set("#Circle",{y:"+=15", transformOrigin:"center"});
 gsap.set("#Louvre", {y:"-=30", transformOrigin:"center bottom", rotate:80});
 gsap.set("#Great-Wall", {y:"-=20", x:"-=3", transformOrigin:"center bottom", rotate:121});  
@@ -82,5 +82,5 @@ mainTL.add(TL())
 .add(landmarks())
 .add(heroAnimation());
 
-GSDevTools.create();
+// GSDevTools.create();
 MotionPathPlugin.create();
