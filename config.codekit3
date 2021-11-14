@@ -102,6 +102,34 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/assets\/Group 1.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dev\/assets\/Group 1.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dev\/assets\/Group 2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dev\/assets\/Group 2.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dev\/assets\/Preloader vectors.ai" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/assets\/Preloader vectors.ai",
+      "oF" : 0
+    },
     "\/dev\/content\/blurb.kit" : {
       "cB" : 0,
       "ft" : 2048,
