@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34214",
   "files" : {
+    "\/deploy.zip" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy.zip",
+      "oF" : 0
+    },
     "\/deploy\/assets\/Group 1.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -139,6 +147,14 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/dev.zip" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev.zip",
+      "oF" : 0
     },
     "\/dev\/content\/blurb.kit" : {
       "cB" : 0,
