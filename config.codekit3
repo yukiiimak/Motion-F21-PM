@@ -7,7 +7,7 @@
       "uuidString" : "9F295768-DBD4-4837-8E9D-B32E4C221DA1"
     }
   ],
-  "creatorBuild" : "34214",
+  "creatorBuild" : "34264",
   "files" : {
     "\/deploy.zip" : {
       "cB" : 0,
@@ -3488,6 +3488,9 @@
       },
       "no-unused-labels" : {
         "active" : 1
+      },
+      "no-unused-private-class-members" : {
+        "active" : 0
       },
       "no-unused-vars" : {
         "active" : 1,
