@@ -1,0 +1,10 @@
+!function(e,n){"object"==typeof exports&&"undefined"!=typeof module?n(exports):"function"==typeof define&&define.amd?define(["exports"],n):n((e=e||self).window=e.window||{})}(this,(function(exports){"use strict";
+/*!
+	 * CustomBounce 3.7.1
+	 * https://greensock.com
+	 *
+	 * @license Copyright 2008-2021, GreenSock. All rights reserved.
+	 * Subject to the terms at https://greensock.com/standard-license or for
+	 * Club GreenSock members, the agreement issued with that membership.
+	 * @author: Jack Doyle, jack@greensock.com
+	*/var e,n,t,o=function(){return e||"undefined"!=typeof window&&(e=window.gsap)&&e.registerPlugin&&e},i=function(i){e=o(),(t=e&&e.parseEase("_CE"))?(n=1,e.parseEase("bounce").config=function(e){return"object"==typeof e?u("",e):u("bounce("+e+")",{strength:+e})}):i&&console.warn("Please gsap.registerPlugin(CustomEase, CustomBounce)")},s=function(e){var n,t=e.length,o=1/e[t-2];for(n=2;n<t;n+=2)e[n]=~~(e[n]*o*1e3)/1e3;e[t-2]=1},u=function(e,o){n||i(1),o=o||{};var u,r,f,a,c,d,h,p=Math.min(.999,o.strength||.7),g=p,l=(o.squash||0)/100,w=l,m=1/.03,y=.2,C=1,b=.1,j=[0,0,.07,0,.1,1,.1,1],v=[0,0,0,0,.1,0,.1,0];for(c=0;c<200&&(d=b+(y*=g*((g+1)/2)),a=1-(C*=p*p),r=(f=b+.49*y)+.8*(f-(u=b+C/m)),l&&(b+=l,u+=l,f+=l,r+=l,d+=l,h=l/w,v.push(b-l,0,b-l,h,b-l/2,h,b,h,b,0,b,0,b,-.6*h,b+(d-b)/6,0,d,0),j.push(b-l,1,b,1,b,1),l*=p*p),j.push(b,1,u,a,f,a,r,a,d,1,d,1),p*=.95,m=C/(d-r),b=d,!(a>.999));c++);if(o.endAtStart&&"false"!==o.endAtStart){if(f=-.1,j.unshift(f,1,f,1,-.07,0),w)for(f-=l=2.5*w,j.unshift(f,1,f,1,f,1),v.splice(0,6),v.unshift(f,0,f,0,f,1,f+l/2,1,f+l,1,f+l,0,f+l,0,f+l,-.6,f+l+.033,0),c=0;c<v.length;c+=2)v[c]-=f;for(c=0;c<j.length;c+=2)j[c]-=f,j[c+1]=1-j[c+1]}return l&&(s(v),v[2]="C"+v[2],t(o.squashID||e+"-squash","M"+v.join(","))),s(j),j[2]="C"+j[2],t(e,"M"+j.join(","))},r=function(){function n(e,n){this.ease=u(e,n)}return n.create=function(e,n){return u(e,n)},n.register=function(n){e=n,i()},n}();o()&&e.registerPlugin(r),r.version="3.7.1",exports.CustomBounce=r,exports.default=r,Object.defineProperty(exports,"__esModule",{value:!0})}));
