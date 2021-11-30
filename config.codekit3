@@ -45,6 +45,18 @@
       "oAP" : "\/deploy\/assets\/Preloader vectors.ai",
       "oF" : 0
     },
+    "\/deploy\/css\/styles.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/css\/styles-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/deploy\/img\/modified\/HotAirBalloons.jpg" : {
       "ft" : 16384,
       "iS" : 140649,
@@ -84,6 +96,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/original\/Logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/original\/Logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/original\/TravelStamps.png" : {
       "ft" : 32768,
       "iS" : 930093,
@@ -107,6 +129,25 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 0
+    },
+    "\/deploy\/js\/scripts-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/deploy\/js\/scripts-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/dev.zip" : {
       "cB" : 0,
       "ft" : 8192,
@@ -121,6 +162,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/blurb.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/header.html",
       "oF" : 0
     },
     "\/dev\/content\/hero.kit" : {
@@ -154,6 +203,40 @@
       "oA" : 1,
       "oAP" : "\/dev\/global\/scripts.html",
       "oF" : 0
+    },
+    "\/dev\/index.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/index.html",
+      "oF" : 0
+    },
+    "\/dev\/js\/scripts.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dev\/js\/scripts-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/scss\/base\/_base.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/base\/_base.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/dev\/scss\/base\/_normalize.scss" : {
       "aP" : 0,
@@ -335,6 +418,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/styles.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/scss\/styles.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/gsap-bonus.tgz" : {
       "cB" : 0,
       "ft" : 8192,
@@ -349,6 +447,28 @@
       "oAP" : "\/node_modules",
       "oF" : 0
     },
+    "\/node_modules\/gsap\/CSSPlugin.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/gsap\/CSSPlugin-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/gsap\/gsap-core.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/gsap\/gsap-core-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/node_modules\/gsap\/index.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -356,6 +476,33 @@
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/node_modules\/gsap\/index-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/package-lock.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/package-lock-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/package.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/package-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/package\/all-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/package\/all-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -426,6 +573,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/package\/dist\/CSSRulePlugin-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/package\/dist\/CSSRulePlugin-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/package\/dist\/CSSRulePlugin.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -433,6 +591,17 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/package\/dist\/CSSRulePlugin-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/package\/dist\/CSSRulePlugin.min-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/package\/dist\/CSSRulePlugin.min-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -456,6 +625,17 @@
       "oAP" : "\/package\/dist\/CSSRulePlugin.min.js.map",
       "oF" : 0
     },
+    "\/package\/dist\/CustomBounce-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/package\/dist\/CustomBounce-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/package\/dist\/CustomBounce.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -463,6 +643,17 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/package\/dist\/CustomBounce-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/package\/dist\/CustomBounce.min-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/package\/dist\/CustomBounce.min-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -486,6 +677,17 @@
       "oAP" : "\/package\/dist\/CustomBounce.min.js.map",
       "oF" : 0
     },
+    "\/package\/dist\/CustomEase-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/package\/dist\/CustomEase-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/package\/dist\/CustomEase.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -493,6 +695,17 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/package\/dist\/CustomEase-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/package\/dist\/CustomEase.min-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/package\/dist\/CustomEase.min-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -516,6 +729,17 @@
       "oAP" : "\/package\/dist\/CustomEase.min.js.map",
       "oF" : 0
     },
+    "\/package\/dist\/CustomWiggle-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/package\/dist\/CustomWiggle-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/package\/dist\/CustomWiggle.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -523,6 +747,17 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/package\/dist\/CustomWiggle-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/package\/dist\/CustomWiggle.min-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/package\/dist\/CustomWiggle.min-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -546,6 +781,17 @@
       "oAP" : "\/package\/dist\/CustomWiggle.min.js.map",
       "oF" : 0
     },
+    "\/package\/dist\/Draggable-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/package\/dist\/Draggable-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/package\/dist\/Draggable.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -553,6 +799,17 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/package\/dist\/Draggable-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/package\/dist\/Draggable.min-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/package\/dist\/Draggable.min-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -576,6 +833,17 @@
       "oAP" : "\/package\/dist\/Draggable.min.js.map",
       "oF" : 0
     },
+    "\/package\/dist\/DrawSVGPlugin-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/package\/dist\/DrawSVGPlugin-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/package\/dist\/DrawSVGPlugin.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -583,6 +851,17 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/package\/dist\/DrawSVGPlugin-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/package\/dist\/DrawSVGPlugin.min-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/package\/dist\/DrawSVGPlugin.min-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -636,6 +915,17 @@
       "oAP" : "\/package\/dist\/EaselPlugin.min.js.map",
       "oF" : 0
     },
+    "\/package\/dist\/EasePack-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/package\/dist\/EasePack-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/package\/dist\/EasePack.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -643,6 +933,17 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/package\/dist\/EasePack-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/package\/dist\/EasePack.min-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/package\/dist\/EasePack.min-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1193,6 +1494,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/package\/index-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/package\/index-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/package\/index.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -1288,6 +1600,14 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/package\/README.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/package\/README.html",
+      "oF" : 0
     },
     "\/package\/README.md" : {
       "cB" : 0,
